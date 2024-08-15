@@ -1,3 +1,4 @@
+#coffinsp  methodology
 #!/bin/bash
 target=$1
 mkdir $1
