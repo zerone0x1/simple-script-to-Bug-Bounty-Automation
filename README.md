@@ -6,3 +6,7 @@ after that use fuzzing templates
 https://github.com/projectdiscovery/fuzzing-templates
 
 ![Screenshot_2024-08-15_11_30_55](https://github.com/user-attachments/assets/2c3b06b4-6e68-4ee8-9cf7-308dc4f657d8)
+
+
+
+![Uploading Screenshot_2024-08-15_11_33_24.png…]()
