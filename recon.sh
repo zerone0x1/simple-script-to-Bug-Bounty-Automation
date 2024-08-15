@@ -10,6 +10,5 @@ cat allurls.txt | grep -E 'Image_url=|Open=|callback=|cgi-bin/redirect\.cgi|cgi-
 cat allurls.txt | grep -E 'Image_url=|Open=|callback=|cgi-bin/redirect\.cgi|cgi-bin/redirect\.cgi\?|checkout=|checkout_url=|continue=|data=|dest=|destination=|dir=|domain=|feed=|file=|document=|folder=|root=|path=|pg=|style=|pdf=|template=|php_path=|doc=|page=|name=|cat=|dir=|action=|board=|date=|detail=|download=|prefix=|include=|inc=|locate=|show=|site=|type=|view=|content=|layout=|mod=|conf=|url=|val=|validate=|window=' >redir.txt
 cat allurls.txt | grep -E 'q=|s=|search=|lang=|keyword=|query=|page=|keywords=|year=|view=|email=|type=|name=|p=|callback=|jsonp=|api_key=|api=|password=|email=|emailto=|token=|username=|csrf_token=|unsubscribe_token=|id=|item=|page_id=|month=|immagine=|list_type=|url=|terms=|categoryid=|key=|l=|begindate=|enddate=' >xss.txt
 cat allurls.txt | grep -E 'id=|select=|report=|role=|update=|query=|user=|name=|sort=|where=|search=|params=|process=|row=|view=|table=|from=|sel=|results=|sleep=|fetch=|order=|keyword=|column=|field=|delete=|string=|number=|filter=' >sqli.txt
-nuclei -l /home/learn/Desktop/BUG/$1/alljs.txt -t /root/nuclei-templates/http/exposures/
 nuclei -l /home/learn/Desktop/BUG/$1/xss.txt -l /home/learn/Desktop/BUG/$1/sqli.txt -l /home/learn/Desktop/BUG/$1/redir.txt -l /home/learn/Desktop/BUG/$1/lfi.txt -t /root/fuzzing-templates/ -dast
 
