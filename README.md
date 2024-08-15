@@ -9,4 +9,5 @@ https://github.com/projectdiscovery/fuzzing-templates
 
 
 
+![Screenshot_2024-08-15_11_35_22](https://github.com/user-attachments/assets/c50454ff-8bed-45f0-84e7-4bb0b97b4696)
 
