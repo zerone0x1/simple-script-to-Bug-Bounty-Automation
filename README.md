@@ -4,6 +4,9 @@ ouputfile:
 alljs.txt  allurls.txt  lfi.txt  live.txt  redir.txt  sqli.txt  subdomain.txt  xss.txt
 after that use fuzzing templates
 https://github.com/projectdiscovery/fuzzing-templates
+how to use:
+./recon.sh domain.com
+./recon.sh vulnweb.com
 
 ![Screenshot_2024-08-15_11_30_55](https://github.com/user-attachments/assets/2c3b06b4-6e68-4ee8-9cf7-308dc4f657d8)
 
